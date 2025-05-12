@@ -53,7 +53,7 @@ This microservice is responsible for logging incoming requests from the shuffle 
 ### 1. Clone the repository
 
 ```bash
-git clone <repo-url> logProject
+git clone https://github.com/shlomi10/logService.git logProject
 cd logProject
 ```
 
@@ -66,7 +66,7 @@ mvn clean package -DskipTests
 ### 3. Build the Docker image
 
 ```bash
-docker build -t log-service:1.0 .
+docker build . -t log-service:1.0
 ```
 
 The image can now be used in your Docker Compose setup.
