@@ -4,8 +4,6 @@
 ![Spring Boot 3.4.5](https://img.shields.io/badge/Spring_Boot-3.4.5-brightgreen?logo=springboot\&logoColor=white)
 ![Maven 3.9.9](https://img.shields.io/badge/Maven-3.9.9-red?logo=apachemaven\&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue?logo=docker)
-![Build](https://img.shields.io/github/actions/workflow/status/your-org/log-repo/build.yml?label=Build\&logo=github\&style=flat)
-![License](https://img.shields.io/github/license/your-org/log-repo?style=flat\&logo=github)
 
 This microservice is responsible for logging incoming requests from the shuffle service. It simply receives data via a POST request and prints it to the console.
 
